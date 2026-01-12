@@ -1,16 +1,77 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌑⚡ fkuroshiro
+### *Frontend Developer • Dark UI Lover • React Enjoyer*
 
-Currently, two official plugins are available:
+Minimal. Fast. Aesthetic.  
+Powered by **React + Vite + Sass**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>
 
-## React Compiler
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
+![Sass](https://img.shields.io/badge/Sass-SCSS-CC6699?logo=sass&logoColor=fff&style=for-the-badge)
+![React Router](https://img.shields.io/badge/React_Router-6-CA4245?logo=react-router&logoColor=fff&style=for-the-badge)
+![GitHub](https://img.shields.io/badge/fkuroshiro-181717?logo=github&logoColor=fff&style=for-the-badge)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👨‍💻 About Me
+
+Hey, I’m **Dominik Bobruška** — a frontend developer who enjoys building  
+**dark, minimal, and clean UIs** with React ⚛️.
+
+I like:
+- smooth UX & subtle animations 🎬  
+- aesthetic color palettes (especially purple) 💜  
+- simple, modular architecture 🧩  
+- fast builds & clean code ⚡  
+
+Right now I'm focused on sharpening my React skills and building projects that feel *nice* to use.
+
+---
+
+## 🧰 Tech Stack
+
+### **Frontend**
+- ⚛️ React  
+- ⚡ Vite  
+- 🔀 React Router  
+- 🎨 Sass / SCSS  
+- 🧩 CSS Modules  
+
+### **Tools**
+- 🛠️ Git + GitHub  
+- 🧪 npm  
+- 💻 VS Code  
+
+---
+
+## 🗂️ Projects
+
+### ⭐ **Personal Portfolio**  
+Dark-themed React portfolio with clean animations, structured routing, and Sass-powered styling.
+
+More projects coming soon — stay tuned 👀  
+View them on the **Projects** page of the site.
+
+---
+
+## 📬 Contact
+
+Want to reach out or check out my work?
+
+- **GitHub:** [@fkuroshiro](https://github.com/fkuroshiro)
+
+Let’s build something cool 👾
+
+---
+
+## 🔒 License
+
+This project is licensed under **ALL RIGHTS RESERVED**.  
+Viewing is allowed — copying or reuse is not.
+
+See the `LICENSE` file for details.

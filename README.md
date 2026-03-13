@@ -88,9 +88,9 @@ I build web apps and self-host everything I can on my Raspberry Pi. Currently le
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=firefox&logoColor=a855f7)](https://yoursite.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=firefox&logoColor=a855f7)](https://fkuroshiro.xyz)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fkuroshiro)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=a855f7)](mailto:you@email.com)
+[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=a855f7)](mailto:bobruskadominik@gmail.com)
 
 </div>
 

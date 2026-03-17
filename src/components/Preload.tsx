@@ -6,9 +6,8 @@ export default function Preloader() {
   const [fading, setFading] = useState(false)
 
   useEffect(() => {
-    const fadeTimer = setTimeout(() => setFading(true), 2000)
-    const hideTimer = setTimeout(() => setVisible(false), 3000)
-
+    const fadeTimer = setTimeout(() => setFading(true), 1000)
+    const hideTimer = setTimeout(() => setVisible(false), 1500)
     return () => {
       clearTimeout(fadeTimer)
       clearTimeout(hideTimer)
@@ -18,21 +17,11 @@ export default function Preloader() {
   if (!visible) return null
 
   return (
-    <>
-      <div
-        className="fixed inset-0 z-9999 flex items-center justify-center bg-mauve-950"
-        style={{
-          opacity: fading ? 0 : 1,
-          transition: "opacity 0.3s ease"
-        }}
-      >
-        <img src="/logo.svg" alt="Logo" className="w-16 h-16 invert animate-pulse" />
-      </div>
-
-      <div
-        className="fixed inset-0 z-999 flex items-center justify-center bg-mauve-950">
-
-      </div>
-  </>
+    <div
+      className="fixed inset-0 z-9999 flex items-center justify-center bg-ctp-base"
+      style={{ opacity: fading ? 0 : 1, transition: "opacity 1s ease", pointerEvents: fading ? "none" : "all" }}
+    >
+      <img src="/logo.svg" alt="Logo" className="w-16 h-16 invert animate-pulse" />
+    </div>
   )
 }

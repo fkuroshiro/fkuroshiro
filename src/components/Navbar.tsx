@@ -4,10 +4,11 @@ import Wrapper from "./Wrapper"
 import HamburgerMenu from "../assets/hamburger_menu.svg"
 
 const navLinks = [
-  { label: "Home", href: "#hero-section" },
-  { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#hero-section" },
+  { label: "About", href: "/#about" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Contact", href: "/#contact" },
+  { label: "Anime", href: "/anime" },
 ]
 
 export default function Navbar() {
@@ -22,8 +23,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed flex justify-center align-middle w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-mauve-950/40 backdrop-blur-md" : "bg-transparent"
+      className={`fixed flex justify-center w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-ctp-mantle/80 backdrop-blur-md shadow-2xl shadow-ctp-crust"
+          : "bg-transparent"
       }`}
     >
       <Wrapper>
@@ -32,7 +35,9 @@ export default function Navbar() {
           {/* Left — logo + nick */}
           <div className="flex items-center gap-3">
             <img src="/logo.svg" className="w-8 h-8 invert" alt="logo" />
-            <span className="text-white font-bold tracking-wide">fkuroshiro</span>
+            <span className="font-bold tracking-wide text-ctp-text">
+              fkuroshiro
+            </span>
           </div>
 
           {/* Center — nav links */}
@@ -43,12 +48,14 @@ export default function Navbar() {
                   href={link.href}
                   onClick={() => setActive(link.label)}
                   className={`relative text-sm font-medium transition-colors duration-200 group ${
-                    active === link.label ? "text-white" : "text-slate-400 hover:text-white"
+                    active === link.label
+                      ? "text-ctp-mauve"
+                      : "text-ctp-subtext hover:text-ctp-text"
                   }`}
                 >
                   {link.label}
                   <span
-                    className={`absolute -bottom-1 left-0 h-0.5 bg-purple-400 transition-all duration-300 ${
+                    className={`absolute -bottom-1 left-0 h-0.5 bg-ctp-mauve transition-all duration-300 ${
                       active === link.label ? "w-full" : "w-0 group-hover:w-full"
                     }`}
                   />
@@ -61,11 +68,13 @@ export default function Navbar() {
           <div className="flex justify-end items-center gap-4">
             <a
               href="mailto:bobruskadominik@gmail.com"
-              className="hidden md:block text-sm text-slate-400 hover:text-white transition-colors duration-200"
+              className="hidden md:block text-sm text-ctp-subtext hover:text-ctp-text transition-colors duration-200"
             >
               bobruskadominik@gmail.com
             </a>
-            <button className="md:hidden text-white text-xl"><img src={HamburgerMenu} className="invert w-8"/></button>
+            <button className="md:hidden">
+              <img src={HamburgerMenu} className="w-8 invert" alt="menu" />
+            </button>
           </div>
 
         </div>

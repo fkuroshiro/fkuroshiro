@@ -1,21 +1,20 @@
-import Preload from './components/Preload'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-// import Footer from './components/Footer'
-// import About from './components/About'
-// import Projects from './components/Projects'
-// import ContactForm from './components/ContactForm'
-import Reconstruction from './components/Reconstruction'
+import { Routes, Route } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import AnimeList from "./pages/AnimeList"
+//import Footer from "./components/Footer"
+import Preloader from "./components/Preload"
 
 export default function App() {
-
   return (
     <>
-      <Preload></Preload>
-      <Navbar></Navbar>
+      <Preloader />
+      <Navbar />
       <main>
-        <Hero></Hero>
-        <Reconstruction></Reconstruction>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/anime" element={<AnimeList />} />
+        </Routes>
       </main>
     </>
   )

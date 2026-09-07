@@ -44,9 +44,9 @@
 
 | Project | Description | Stack | Link |
 |---|---|---|---|
-| 🏫 **School Website** | Website built for my school | React · Tailwind | [🔗 Link](https://mapaservisu.skolahostivar.cz/) |
-| 🌐 **Portfolio** | This portfolio site itself | Next.js · TypeScript · Tailwind | [🔗 Link](https://fkuroshiro.dev) |
-| 🚗 **Car Log** | Web app for logging car maintenance, fuel, and expenses | FastAPI · React | [🔗 Link](https://fkuroshiro.dev/car-log) |
+| 🏫 **School Website** | Website built for my school | React · Tailwind | <a href="https://mapaservisu.skolahostivar.cz/" target="_blank" rel="noopener noreferrer">🔗 Link</a> |
+| 🌐 **Portfolio** | This portfolio site itself | Next.js · TypeScript · Tailwind | <a href="https://fkuroshiro.dev" target="_blank" rel="noopener noreferrer">🔗 Link</a> |
+| 🚗 **Car Log** | Web app for logging car maintenance, fuel, and expenses | FastAPI · React | <a href="https://fkuroshiro.dev/car-log" target="_blank" rel="noopener noreferrer">🔗 Link</a> |
 
 > More projects coming soon...
 
